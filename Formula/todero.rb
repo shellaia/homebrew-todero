@@ -1,8 +1,8 @@
 class Todero < Formula
   desc "Todero CLI, server, and admin tools"
   homepage "https://github.com/biblip/todero"
-  url "https://brew.social100.com/todero/todero-0.1.82.tar.gz"
-  sha256 "7c825ffd4808b700658f753de37801564c1ceedd4966c97e84d611d6cf346a35"
+  url "https://brew.social100.com/todero/todero-0.1.83.tar.gz"
+  sha256 "3ffae0d77765a3fb8f94cb8c159ef0c4c0e3cb56cbdfe4c5b275de131ae9c056"
   license "Apache-2.0"
   depends_on "openjdk@17"
 
