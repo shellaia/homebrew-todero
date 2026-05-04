@@ -1,8 +1,8 @@
 class ToderoJvmEngine < Formula
   desc "Todero JVM reference engine"
   homepage "https://github.com/biblip/todero"
-  url "https://brew.social100.com/todero/channels/stable/todero-jvm-engine-0.1.108.tar.gz"
-  sha256 "e24e2e4a83e8b5ab8fcc0733fe14518b71a28d65673292a5c8c7770f5ab67303"
+  url "https://brew.social100.com/todero/channels/stable/todero-jvm-engine-0.1.109.tar.gz"
+  sha256 "48a7728992c6f577da25c2d587198aa1ac5c1924121371435cc40b63c5ebccb6"
   license "Apache-2.0"
   depends_on "openjdk@17"
 
