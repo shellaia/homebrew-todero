@@ -1,26 +1,26 @@
 class ToderoAm < Formula
   desc "Todero Artifact Manager CLI"
   homepage "https://github.com/shellaia/todero-artifact-repository-manager"
-  version "0.0.22"
+  version "1.0.1"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_0.0.22_darwin_arm64.tar.gz"
-      sha256 "a740fa13ebecd09424ec12c1ab632461cd92074e63281804ff737b23de0fad69"
+      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_1.0.1_darwin_arm64.tar.gz"
+      sha256 "7857451f1d25deaed0344d228a2abf7ecc97f1d1d040edbe0ae0f4fbd113e694"
     else
-      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_0.0.22_darwin_amd64.tar.gz"
-      sha256 "ef5948286181340010f53584497d22aea22d2ca3c0b5237feb8a7a8e877de94e"
+      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_1.0.1_darwin_amd64.tar.gz"
+      sha256 "76bd66f24ee2ce7d8070235335abaa2dceaa49c7fb733c94ac1fe44fdf626890"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_0.0.22_linux_arm64.tar.gz"
-      sha256 "3966843e9a3f11ab897c4caaafb52bc21bc71453918e6d073b267be2620b705f"
+      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_1.0.1_linux_arm64.tar.gz"
+      sha256 "6917608deccf20205a055da9ff89eee97fbc51dc89d569805499cf444fbc1a3a"
     else
-      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_0.0.22_linux_amd64.tar.gz"
-      sha256 "2cbc1db473e301265d9dd641620827a4f200035f5c61fb7a919eeb8f0aefd220"
+      url "https://brew.social100.com/todero-am/channels/stable/tarballs/todero-am_1.0.1_linux_amd64.tar.gz"
+      sha256 "fdc81c45d81671ec8381eb524935fde11621756b079b4e057fff5e8f4efa5d5f"
     end
   end
 
